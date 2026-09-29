@@ -122,10 +122,15 @@ if a.feed:
     if a.extras:
         by_uid = {e["uid"]: e for e in events}
         for it in json.load(open(a.extras)):
+            if it.get("drop"):
+                # {"uid": "<feed UID>", "drop": true, "why": "..."} removes a Canvas event that is wrong or duplicated
+                events = [e for e in events if e["uid"] != it.get("uid")]
+                by_uid.pop(it.get("uid"), None)
+                continue
             if not it.get("dueAt"):
                 continue
             iid = str(it["id"]); m = re.match(r"^[aq](\d+)$", iid)
-            uid = f"event-assignment-{m.group(1)}" if m else f"sko-{iid}"
+            uid = it.get("uid") or (f"event-assignment-{m.group(1)}" if m else f"sko-{iid}")
             src = it.get("source") or {}
             note = ("From the syllabus — not on the Canvas calendar. " + (src.get("label") or "")) if src.get("kind") == "found" \
                    else (src.get("label") or "") if src.get("kind") == "corrected" else ""
