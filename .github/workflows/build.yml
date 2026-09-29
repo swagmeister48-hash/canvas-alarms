@@ -1,0 +1,62 @@
+name: build calendars
+
+# Rebuilds the due-date calendars (with alarms) from each person's Canvas feed and publishes
+# them to GitHub Pages. Canvas feed URLs and the output filenames live in repository secrets,
+# never in this file. Nothing is committed back to the repo — the .ics files exist only on Pages.
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # hourly
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: build calendars
+        env:
+          CANVAS_FEED_ABE: ${{ secrets.CANVAS_FEED_ABE }}
+          SLUG_ABE:        ${{ secrets.SLUG_ABE }}
+          CANVAS_FEED_GF:  ${{ secrets.CANVAS_FEED_GF }}
+          SLUG_GF:         ${{ secrets.SLUG_GF }}
+        run: |
+          set -e
+          mkdir -p site
+          echo '<!doctype html><title>nothing here</title>' > site/index.html
+          if [ -n "$CANVAS_FEED_ABE" ] && [ -n "$SLUG_ABE" ]; then
+            python3 tools/alarm_feed.py --feed "$CANVAS_FEED_ABE" --extras extras/abe.json \
+              --exclude "Leeds Business Minor,Engagement" --name "Abe — classes" --out "site/$SLUG_ABE.ics"
+          fi
+          if [ -n "$CANVAS_FEED_GF" ] && [ -n "$SLUG_GF" ]; then
+            EXTRAS=""; [ -f extras/gf.json ] && EXTRAS="--extras extras/gf.json"
+            python3 tools/alarm_feed.py --feed "$CANVAS_FEED_GF" $EXTRAS --name "Classes" --out "site/$SLUG_GF.ics"
+          fi
+          ls -la site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
