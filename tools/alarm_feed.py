@@ -130,7 +130,9 @@ if a.feed:
                   "title": it.get("title") or base.get("title", ""),
                   "due": dt.datetime.fromisoformat(it["dueAt"].replace("Z", "+00:00")),
                   "url": it.get("url") or base.get("url", ""), "location": it.get("location") or base.get("location", ""),
-                  "desc": " ".join(x for x in [note, (it.get("desc") or base.get("desc") or "")[:500]] if x).strip()}
+                  "desc": " ".join(x for x in [note, (it.get("desc") or base.get("desc") or "")[:500]] if x).strip(),
+                  # optional explicit alarm instants (ISO, UTC) — replaces the computed pair; used for tests and one-offs
+                  "alarms": [dt.datetime.fromisoformat(x.replace("Z", "+00:00")) for x in (it.get("alarmsAt") or [])]}
             if uid in by_uid:
                 events[events.index(by_uid[uid])] = ev
             else:
@@ -190,7 +192,7 @@ for e in sorted(events, key=lambda x: x["due"]):
         ev.append(f"LOCATION:{esc(e['location'])}")
     if body:
         ev.append(f"DESCRIPTION:{body}")
-    for when in alarms_for(e["due"]):
+    for when in (e.get("alarms") or alarms_for(e["due"])):
         ev += ["BEGIN:VALARM", "ACTION:DISPLAY", f"TRIGGER;VALUE=DATE-TIME:{z(when)}",
                f"DESCRIPTION:{esc(label)}", "END:VALARM"]
     ev.append("END:VEVENT")
