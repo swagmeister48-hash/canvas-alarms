@@ -1,0 +1,157 @@
+[
+ {
+  "course": "CMDP 1800",
+  "short": "DOC",
+  "note": "label only — no dueAt, so it adds nothing to the calendar"
+ },
+ {
+  "id": "a2754824",
+  "course": "BUSM 2020",
+  "short": "ACCT",
+  "title": "BUSM2020 - Exam #2 IN-PERSON (Remotely Proctored)",
+  "dueAt": "2026-10-06T23:00:00Z",
+  "url": "https://canvas.colorado.edu/courses/142279/assignments/2754824",
+  "location": "in class, 5:00 PM (paper exam)",
+  "source": {
+   "kind": "corrected",
+   "label": "Canvas still shows the old 6:15 PM online window; Prof. Parker's 9/26 announcement makes it a paper exam in class at 5:00 PM — bring your own calculator",
+   "url": "https://canvas.colorado.edu/courses/142279/assignments/2754824"
+  },
+  "desc": ""
+ },
+ {
+  "id": "a2822794",
+  "course": "ECON 1088",
+  "short": "ECON",
+  "title": "Midterm 1",
+  "dueAt": "2026-10-02T00:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/143750/assignments/2822794",
+  "location": "in class, 6:30 PM, ECON 119",
+  "source": {
+   "kind": "corrected",
+   "label": "Canvas says 11:59 PM; the syllabus puts the exam in class at 6:30 PM in ECON 119",
+   "url": "https://canvas.colorado.edu/courses/143750/assignments/2822794"
+  },
+  "desc": "Exam will take place in our usual room unless otherwise announced.\nScantron - bring a #2 pencil\nNon-graphing calculators only. No phones."
+ },
+ {
+  "id": "a2822795",
+  "course": "ECON 1088",
+  "short": "ECON",
+  "title": "Midterm 2",
+  "dueAt": "2026-11-13T01:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/143750/assignments/2822795",
+  "location": "in class, 6:30 PM, ECON 119",
+  "source": {
+   "kind": "corrected",
+   "label": "Canvas says 11:59 PM; the syllabus puts the exam in class at 6:30 PM in ECON 119",
+   "url": "https://canvas.colorado.edu/courses/143750/assignments/2822795"
+  },
+  "desc": "Exam will take place in our usual room unless otherwise announced.\nScantron - bring a #2 pencil\nNon-graphing calculators only. No phones."
+ },
+ {
+  "id": "f-busm2010-exam2",
+  "course": "BUSM 2010",
+  "short": "MKTG",
+  "title": "Exam #2 (in class, Day 14, non-cumulative)",
+  "dueAt": "2026-10-06T18:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142242/modules#module_968997",
+  "location": "in class, Day 14",
+  "source": {
+   "kind": "found",
+   "label": "found in module 'Day 14: EXAM #2' + syllabus schedule (Tu 10/6)",
+   "url": "https://canvas.colorado.edu/courses/142242/modules#module_968997"
+  },
+  "desc": ""
+ },
+ {
+  "id": "f-busm2010-q10",
+  "course": "BUSM 2010",
+  "short": "MKTG",
+  "title": "Day 10 reading quiz (expected; Place Decisions)",
+  "dueAt": "2026-09-22T18:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142242/modules#module_968992",
+  "location": "",
+  "source": {
+   "kind": "found",
+   "label": "module 'Day 10' has an 'Articles and Quiz' section; no quiz item yet",
+   "url": "https://canvas.colorado.edu/courses/142242/modules#module_968992"
+  },
+  "desc": ""
+ },
+ {
+  "id": "f-busm2010-q12",
+  "course": "BUSM 2010",
+  "short": "MKTG",
+  "title": "Day 12 reading quiz (expected; Pricing Decisions)",
+  "dueAt": "2026-09-29T18:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142242/modules#module_968993",
+  "location": "",
+  "source": {
+   "kind": "found",
+   "label": "module 'Day 12' has an 'Articles and Quiz' section; no quiz item yet",
+   "url": "https://canvas.colorado.edu/courses/142242/modules#module_968993"
+  },
+  "desc": ""
+ },
+ {
+  "id": "f-busm2010-q13",
+  "course": "BUSM 2010",
+  "short": "MKTG",
+  "title": "Day 13 reading quiz (expected; Promotion Decisions)",
+  "dueAt": "2026-10-01T18:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142242/modules#module_968994",
+  "location": "",
+  "source": {
+   "kind": "found",
+   "label": "module 'Day 13' has an 'Articles and Quiz' section; syllabus Day 13 date read as Th 10/1 (garbled in PDF)",
+   "url": "https://canvas.colorado.edu/courses/142242/modules#module_968994"
+  },
+  "desc": ""
+ },
+ {
+  "id": "f-busm2021-quiz1",
+  "course": "BUSM 2021",
+  "short": "FIN",
+  "title": "Quiz #1 — in-class exam, Ch 1–5",
+  "dueAt": "2026-10-27T23:00:00Z",
+  "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331",
+  "location": "during class",
+  "source": {
+   "kind": "found",
+   "label": "syllabus calendar + announcement 'FINANCE EXAM DATES' (Oct 27)",
+   "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331"
+  },
+  "desc": ""
+ },
+ {
+  "id": "f-busm2021-quiz2",
+  "course": "BUSM 2021",
+  "short": "FIN",
+  "title": "Quiz #2 — in-class exam, Ch 6–8",
+  "dueAt": "2026-11-11T00:00:00Z",
+  "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331",
+  "location": "during class",
+  "source": {
+   "kind": "found",
+   "label": "syllabus calendar + announcement 'FINANCE EXAM DATES' (Nov 10)",
+   "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331"
+  },
+  "desc": ""
+ },
+ {
+  "id": "f-busm2021-quiz3",
+  "course": "BUSM 2021",
+  "short": "FIN",
+  "title": "Quiz #3 — in-class exam, Ch 9,10,11,12,15 + BKM 4",
+  "dueAt": "2026-12-04T00:00:00Z",
+  "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331",
+  "location": "during class",
+  "source": {
+   "kind": "found",
+   "label": "syllabus calendar + announcement 'FINANCE EXAM DATES' (Dec 3)",
+   "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331"
+  },
+  "desc": ""
+ }
+]
