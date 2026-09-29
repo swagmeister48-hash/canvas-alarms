@@ -153,5 +153,22 @@
    "url": "https://canvas.colorado.edu/courses/142282/discussion_topics/1951331"
   },
   "desc": ""
+ },
+ {
+  "id": "test-feed-update",
+  "course": "BUSM 2010",
+  "short": "MKTG",
+  "title": "TEST — feed update check (delete me)",
+  "dueAt": "2026-09-29T23:55:00Z",
+  "alarmsAt": [
+   "2026-09-29T23:50:00Z"
+  ],
+  "url": "",
+  "location": "",
+  "source": {
+   "kind": "found",
+   "label": "temporary test event added by Claude; remove after Abe confirms the alert fired"
+  },
+  "desc": "If you're reading this on your phone, the live feed works."
  }
 ]
