@@ -68,6 +68,11 @@ def esc(s):
     return str(s or "").replace("\\", "\\\\").replace("\n", "\\n").replace(",", "\\,").replace(";", "\\;")
 
 
+def unesc(s):
+    """Undo iCalendar text escaping on a value read from the feed, so esc() doesn't double it on the way out."""
+    return re.sub(r"\\([\\,;nN])", lambda m: "\n" if m.group(1) in "nN" else m.group(1), s or "")
+
+
 def z(d):
     return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
@@ -98,7 +103,7 @@ if a.feed:
             m = re.match(r"^([A-Z\-]+)((?:;[^:]*)?):(.*)$", ln)
             if m:
                 f[m.group(1)] = m.group(3)
-        summary = f.get("SUMMARY", "")
+        summary = unesc(f.get("SUMMARY", ""))
         cm = re.search(r"\[([^\]]+)\]\s*$", summary)
         course = cm.group(1).strip() if cm else ""
         title = summary[: cm.start()].strip() if cm else summary.strip()
@@ -111,9 +116,9 @@ if a.feed:
             due = dt.datetime.strptime(v, "%Y%m%dT%H%M%S").replace(tzinfo=TZ)
         else:
             continue
-        desc = f.get("DESCRIPTION", "").replace("\\n", "\n").replace("\\,", ",").strip()
+        desc = unesc(f.get("DESCRIPTION", "")).strip()
         events.append({"uid": f.get("UID", ""), "course": course, "short": short_course(course), "title": title,
-                       "due": due, "url": f.get("URL", ""), "location": f.get("LOCATION", ""), "desc": desc[:700]})
+                       "due": due, "url": f.get("URL", ""), "location": unesc(f.get("LOCATION", "")), "desc": desc[:700]})
     if a.extras:
         by_uid = {e["uid"]: e for e in events}
         for it in json.load(open(a.extras)):
