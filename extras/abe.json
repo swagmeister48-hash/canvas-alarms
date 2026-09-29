@@ -155,20 +155,8 @@
   "desc": ""
  },
  {
-  "id": "test-feed-update",
-  "course": "BUSM 2010",
-  "short": "MKTG",
-  "title": "TEST — feed update check (delete me)",
-  "dueAt": "2026-09-29T23:55:00Z",
-  "alarmsAt": [
-   "2026-09-29T23:50:00Z"
-  ],
-  "url": "",
-  "location": "",
-  "source": {
-   "kind": "found",
-   "label": "temporary test event added by Claude; remove after Abe confirms the alert fired"
-  },
-  "desc": "If you're reading this on your phone, the live feed works."
+  "uid": "event-assignment-override-498028",
+  "drop": true,
+  "why": "Canvas section-003 event for ACCT Exam #2 at 6:15 PM Oct 6; Abe confirmed 9/29 the exam is at 5:00 PM (kept as a2754824)"
  }
 ]
