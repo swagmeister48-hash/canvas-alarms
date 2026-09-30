@@ -1,0 +1,368 @@
+[
+ {
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "note": "label only"
+ },
+ {
+  "course": "CHEM 1011",
+  "short": "CHEM",
+  "note": "label only"
+ },
+ {
+  "course": "MATH 1212",
+  "short": "MATH",
+  "note": "label only"
+ },
+ {
+  "course": "PSYC 2145",
+  "short": "COG PSY",
+  "note": "label only"
+ },
+ {
+  "course": "PSYC 2606",
+  "short": "SOC PSY",
+  "note": "label only"
+ },
+ {
+  "id": "f-engl3026-1006",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Hades” (episode 6) — before class",
+  "dueAt": "2026-10-06T15:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1013",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Lestrygonians” (episode 8) — before class",
+  "dueAt": "2026-10-13T15:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day — syllabus prints this as 'M 10/13' but 10/13/2026 is a Tuesday (class day); date kept, weekday assumed a typo"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1020",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Scylla and Charybdis” (episode 9) — before class",
+  "dueAt": "2026-10-20T15:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1027",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Sirens” and “Cyclops” (episodes 11–12) — before class",
+  "dueAt": "2026-10-27T15:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1103",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Nausicaa” (episode 13) — before class",
+  "dueAt": "2026-11-03T16:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1110",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Circe” (episode 15) — before class",
+  "dueAt": "2026-11-10T16:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1117",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Ithaca” (episode 17) — before class",
+  "dueAt": "2026-11-17T16:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "f-engl3026-1201",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Read “Penelope” (episode 18) — before class",
+  "dueAt": "2026-12-01T16:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/modules",
+  "location": "HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule (Citation and Analysis Syllabus Fall 2026.docx): 'Due Before Class' column; weekly in-class annotation on this episode that day"
+  },
+  "desc": "Ulysses reading due before Tuesday class. The weekly annotation (~20 min, in your notebook) is on this episode."
+ },
+ {
+  "id": "a2786848",
+  "course": "CHEM 1011",
+  "short": "CHEM",
+  "title": "Quiz 3 (in class, 1:30–2:15 PM)",
+  "dueAt": "2026-10-07T19:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/137736/assignments/2786848",
+  "location": "HUMN 1B50",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; date from the Course Schedule page, time from the syllabus (Wednesdays 1:30–2:15 PM, 20 MC questions, bring calculator + know your periodic table)"
+  },
+  "desc": "45 minutes, 20 multiple choice. Calculator required (not a phone)."
+ },
+ {
+  "id": "a2786849",
+  "course": "CHEM 1011",
+  "short": "CHEM",
+  "title": "Quiz 4 (in class, 1:30–2:15 PM)",
+  "dueAt": "2026-10-21T19:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/137736/assignments/2786849",
+  "location": "HUMN 1B50",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; date from the Course Schedule page, time from the syllabus (Wednesdays 1:30–2:15 PM, 20 MC questions, bring calculator + know your periodic table)"
+  },
+  "desc": "45 minutes, 20 multiple choice. Calculator required (not a phone)."
+ },
+ {
+  "id": "a2786850",
+  "course": "CHEM 1011",
+  "short": "CHEM",
+  "title": "Quiz 5 (in class, 1:30–2:15 PM)",
+  "dueAt": "2026-11-04T20:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/137736/assignments/2786850",
+  "location": "HUMN 1B50",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; date from the Course Schedule page, time from the syllabus (Wednesdays 1:30–2:15 PM, 20 MC questions, bring calculator + know your periodic table)"
+  },
+  "desc": "45 minutes, 20 multiple choice. Calculator required (not a phone)."
+ },
+ {
+  "id": "a2786845",
+  "course": "CHEM 1011",
+  "short": "CHEM",
+  "title": "Final Exam (cumulative, in person)",
+  "dueAt": "2026-12-10T20:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/137736/assignments/2786845",
+  "location": "HUMN 1B50, 1:30–4:00 PM",
+  "source": {
+   "kind": "found",
+   "label": "syllabus + Course Schedule: Thursday Dec 10, 1:30–4:00 PM, HUMN 1B50; 50 MC questions"
+  },
+  "desc": ""
+ },
+ {
+  "id": "a2848135",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 3 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-10-02T18:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848135",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "a2848136",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 4 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-10-09T18:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848136",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "a2848137",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 5 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-10-16T18:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848137",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "a2848138",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 6 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-10-23T18:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848138",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "a2848139",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 7 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-11-06T19:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848139",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "a2848140",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 8 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-11-13T19:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848140",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "a2848141",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Quiz 9 (in class, Friday 12:20 PM)",
+  "dueAt": "2026-11-20T19:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments/2848141",
+  "location": "in class, 12:20 PM",
+  "source": {
+   "kind": "found",
+   "label": "Canvas has the quiz with no date; Friday from the syllabus schedule grid; 12:20 PM class time per Abe (9/29)"
+  },
+  "desc": "Friday quiz; lowest one is dropped."
+ },
+ {
+  "id": "f-math1212-exam2",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Exam 2 (Midterm, in class 12:20 PM Wed; Canvas stays open until 11:59 PM)",
+  "dueAt": "2026-10-28T18:20:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments",
+  "location": "in class, 12:20 PM (Canvas, remotely proctored)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus: 2nd midterm Wednesday Oct 28, taken in class, open until 11:59 PM; 1-day penalty-free extension is automatic"
+  },
+  "desc": "50 minutes. Take it in class if you can — no help is available if you take it elsewhere."
+ },
+ {
+  "id": "f-math1212-project1",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Project 1 DUE",
+  "dueAt": "2026-10-24T05:59:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944/assignments",
+  "location": "",
+  "source": {
+   "kind": "found",
+   "label": "syllabus schedule grid: 'Project 1 DUE' on Fri Oct 23; no time given, so 11:59 PM assumed. No late projects accepted."
+  },
+  "desc": "Group R project. No late projects are accepted."
+ },
+ {
+  "id": "f-math1212-final",
+  "course": "MATH 1212",
+  "short": "MATH",
+  "title": "Common Final Exam",
+  "dueAt": "2026-12-09T14:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/141944",
+  "location": "location TBD, 7:30–10:00 AM",
+  "source": {
+   "kind": "found",
+   "label": "syllabus: Wednesday Dec 9, 7:30–10:00 AM, location TBD"
+  },
+  "desc": ""
+ },
+ {
+  "id": "a2835612",
+  "course": "PSYC 2606",
+  "short": "SOC PSY",
+  "title": "Exam 1 (in person, MUEN E0046)",
+  "dueAt": "2026-10-01T20:00:00Z",
+  "url": "https://canvas.colorado.edu/courses/140423/assignments/2835612",
+  "location": "MUEN E0046, during class (section 002, 2:00–3:15 PM)",
+  "source": {
+   "kind": "corrected",
+   "label": "Canvas lists 11:59 PM; exam is taken in person during class. Section 002 meets 2:00–3:15 PM (per Abe 9/29 and the syllabus page)"
+  },
+  "desc": "Lowest of the three exams is dropped."
+ },
+ {
+  "id": "a2835611",
+  "course": "PSYC 2606",
+  "short": "SOC PSY",
+  "title": "Exam 2 (in person, MUEN E0046)",
+  "dueAt": "2026-11-03T21:00:00Z",
+  "url": "https://canvas.colorado.edu/courses/140423/assignments/2835611",
+  "location": "MUEN E0046, during class (section 002, 2:00–3:15 PM)",
+  "source": {
+   "kind": "corrected",
+   "label": "Canvas lists 11:59 PM; exam is taken in person during class. Section 002 meets 2:00–3:15 PM (per Abe 9/29 and the syllabus page)"
+  },
+  "desc": "Lowest of the three exams is dropped."
+ },
+ {
+  "uid": "event-calendar-event-1179683",
+  "drop": true,
+  "why": "plain 'Exam 1' calendar event duplicates the Exam 1 assignment (a2835612), which carries the corrected 2:00 PM time"
+ }
+]
