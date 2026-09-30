@@ -44,7 +44,8 @@ jobs:
           fi
           if [ -n "$CANVAS_FEED_GF" ] && [ -n "$SLUG_GF" ]; then
             EXTRAS=""; [ -f extras/gf.json ] && EXTRAS="--extras extras/gf.json"
-            python3 tools/alarm_feed.py --feed "$CANVAS_FEED_GF" $EXTRAS --name "Classes" --out "site/$SLUG_GF.ics"
+            python3 tools/alarm_feed.py --feed "$CANVAS_FEED_GF" $EXTRAS --before 12:00 --dayof 15:00 \
+              --exclude "Reading Day,No Classes" --name "Classes" --out "site/$SLUG_GF.ics"
           fi
           ls -la site
       - uses: actions/upload-pages-artifact@v3
