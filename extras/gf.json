@@ -361,6 +361,34 @@
   "desc": "Lowest of the three exams is dropped."
  },
  {
+  "id": "f-engl3026-pres1013",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Group 5 presentation — “Eating and Digesting ‘Lestrygonians’: A Physiological Model of Reading” by Aida Yared (2009)",
+  "dueAt": "2026-10-13T15:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/assignments",
+  "location": "in class, HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule: Group 5 presentation dates; Abe confirmed 9/29 she is in Group 5"
+  },
+  "desc": "~45-minute group presentation on the assigned James Joyce Quarterly article: central argument, key points, relevance to the episode, strengths and weaknesses. Graded half individual, half group (10 pts)."
+ },
+ {
+  "id": "f-engl3026-pres1117",
+  "course": "ENGL 3026",
+  "short": "ENGL",
+  "title": "Group 5 presentation — “A series originating in and repeated to infinity: Identity, Relations, and the Fractal Imagination of ‘Ithaca’” by Jessica Kim (2019)",
+  "dueAt": "2026-11-17T16:30:00Z",
+  "url": "https://canvas.colorado.edu/courses/142554/assignments",
+  "location": "in class, HLMS E130, 9:30 AM (section 003)",
+  "source": {
+   "kind": "found",
+   "label": "syllabus course schedule: Group 5 presentation dates; Abe confirmed 9/29 she is in Group 5"
+  },
+  "desc": "~45-minute group presentation on the assigned James Joyce Quarterly article: central argument, key points, relevance to the episode, strengths and weaknesses. Graded half individual, half group (10 pts)."
+ },
+ {
   "uid": "event-calendar-event-1179683",
   "drop": true,
   "why": "plain 'Exam 1' calendar event duplicates the Exam 1 assignment (a2835612), which carries the corrected 2:00 PM time"
